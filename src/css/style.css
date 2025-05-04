@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+body{
+    font: normal 14px 'Helvetica Neue', Arial, sans-serif;
+}
+
+header{
+    max-width: 960px;
+    height: 34px;
+    background: #999;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+header h1 {
+    font:500 22px/34px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin:0 ;
+    text-align: center;
+}
+
+main{
+    max-width: 960px;
+    max-height: 1600px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+form{
+    max-width: 550px;
+    
+}
+
+input {
+
+    border:1px solid #E2E2E2;
+}
+select{
+    border:1px solid #E2E2E2;
+}
+textarea{
+    border:1px solid #E2E2E2;
+}
+
+input:focus{
+    border:1px solid #000000;
+}
+select:focus{
+    border:1px solid #000000;
+}
+textarea:focus{
+    border:1px solid #000000;
+}
+
+
+.name_input_div{
+    text-align: left;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    gap: 3.9px;
+ 
+}
+.name_input_div label{
+    float: left;
+    width: 150px;
+    text-align: left;
+    
+   
+}
+.name_select{
+    width: 192px;
+    height: 36px;
+    padding: 8px 0 8px 10px;
+    margin: 0;
+    float: left;
+}
+.container_input_client{
+    width: 150px;
+    height: 36px;
+    padding: 8px 0 8px 10px;
+    margin: 0;
+    float: left;
+}
+
+.city_select{
+    width: 346px;
+    height: 36px;
+    padding: 8px 0 8px 10px;
+   
+}
+
+.city_div_select label{
+    width: 150px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+}
+.area_div input{
+    width: 122.6px;
+    height: 36px;
+    margin-top: 10px;
+    padding: 8px 0 8px 10px;
+}
+.additional_info_div{
+    display: flex;
+    gap: 3.9px;
+}
+.additional_info_div textarea{
+    width: 347.6px;
+    height:201.6px;
+    margin-top: 10px;
+    padding: 8px 0 8px 10px;
+}
+
+.additional_info_div label{
+    margin-top: 8px;
+}
+
+.price_div input{
+    width: 122.6px;
+    height: 36px;
+    margin-top: 10px;
+    padding: 8px 0 8px 10px;
+}
+
+.struktur{
+    width: 346px;
+    height: 36px;
+    padding: 8px 0 8px 10px;
+    margin-top: 10px;
+}
+
+.map_divider{
+    display: flex;
+    gap: 3.9px;
+    text-align: left;
+    vertical-align: middle;
+    
+    
+}
+.map_divider label{
+    width: 150px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+    margin-top: 37.6px;
+}
+.map_div_input{
+    width: 345px;
+    height: 120px;
+    margin-top: 10px;
+   display: block;
+}
+
+.map_div_bokemarker_text{
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.adress_bokemarker{
+    width: 330px;
+    
+    margin-left: 150px;
+    margin-top: 30px;
+   
+}
+
+.adress_bokemarker ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.adress_bokemarker li {
+    width: 140.4px;
+    height: 35px;
+    display: flex;
+    /* flex: none;
+    flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 0 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #2f1f19;
+    border: 1px solid #eae5e1;
+    border-radius: 55px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+
+.addres_input input{
+    width: 346px;
+    height: 36px;
+    margin-top: 15px;
+    padding: 8px 0 8px 10px;
+}
+.image_div{
+    margin-top: 10px;
+
+    
+}
+.image_div ul{
+    margin-top: 10px;
+    margin-left: 170px;
+    
+}
+.image_div li{
+ column-gap: 15px;
+ margin-top: 10px;
+ display: list-item;
+ text-align: -webkit-match-parent;
+ unicode-bidi: isolate;
+}
+
+
+input[type="file"]::-webkit-file-upload-button{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    background-color: #EBEBEB;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    width: 137.6px;
+    height: 30.4px;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    margin-top: 10px;
+    box-shadow:#555;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover{
+    background-color: #999;
+    color: #000000;
+    transition: all .1s ease-in-out;
+}
+
+.image_div label{
+    width: 150px;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+    margin-top: 10px;
+}
+
+.image_div ul{
+    margin-top: 10px;
+    margin-left: 130px;
+    display: block;
+ 
+}
+
+.image_div li{
+ column-gap: 15px;
+ margin-top: 10px;
+ list-style: circle;
+ 
+}
+
+.show{
+    display: flex;
+   
+}
+.hidden  {
+    display: none;
+}
+
+
+.radio_input_div label{
+    display: block;
+    width: 345px;
+    margin-left:  155px;
+    margin-top: 5px;
+}
+.phone_div{
+    margin-top: 5px;
+}
+
+.info_div_text{
+    width: 348px;
+    height: 50px;
+display:none;
+  background: #fff9ad;
+    margin-left: 150px;
+    margin-top: 28.6px;
+    padding: 10px 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #2f1f19;
+    border: 1px solid #eae5e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    gap: 5px;
+}
+
+.submit_div{
+    margin-top: 21.3px;
+   height: 33px;
+    display:flex;
+    text-align: left;
+    vertical-align: middle;
+    float: none;
+    gap: 40px;
+}
+
+
+.submit_div_text{
+    width: 348px;
+    height: 30.4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #6b6b6b;
+    
+    
+}
+
+.submit_div button{
+    padding: 14px 33px;
+    font-weight: 500;
+    padding: 0 14px;
+    border-radius: 4px;
+    line-height: 33px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background:#ce312d ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+}
+    
+.submit_div button:hover{
+    background:#ce312d;
+    opacity: 0.8;
+    transition: all .1s ease-in-out;
+}
+
+.submit_div a {
+    color: #3496fc;
+}
+input{
+    outline: none;
+    border-color: 1px solid #eae5e1;
+}
+
+.info_divider_2{
+    max-width: 330px;
+    margin-top: 10px;
+}
+
+.info_divider_2 h2{
+   font-size: 16px;
+   text-align: center;
+   font-weight: bold;
+   margin-top: 14px;
+}
+
+.info_divider_2_text li {
+    margin-bottom: 10px;
+    list-style: circle;
+    font-size: 12px;
+    
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.number_of_rooms_select_1{
+    width: 122.6px;
+    height: 36px;
+    margin-top: 10px;
+    padding: 8px 0 8px 10px;
+}
+.number_of_rooms_select_2{
+    width: 122.6px;
+    height: 36px;
+    margin-top: 10px;
+    padding: 8px 0 8px 10px;
+}
+
+.warning_text{
+    color: red;
+    display: none;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.checkbox_excerpt{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    display: none;
+    margin-left: 150px;
+    font:bold 18px/25px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #2f1f19;
+    
+}
+
+.submit_img{
+    width: 150px;
+    height: 150px;
+    display:none;
+    margin:0  auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}

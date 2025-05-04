@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Yeni elan</h1>
+    </header>
+    <main>
+        <form id="form">
+          <p class="warning_text">Bütün sahələr doldurulmalıdır.</p>
+            <div class="name_input_div">
+                <label for="name">Mən</label>
+                <select id="name_select"   class="name_select" name="name" required>
+                    
+                        <option selected value="0"></option>
+                        <option  selected disabled  value="mənzil">mənzil</option>
+                        <option value="1">— yeni tikili</option>
+                        <option value="— køhnə tikili">— köhnə tikili</option>
+                          <option value="həyət evi\bağ evi">həyət evi\bağ evi</option>
+                          <option value="ofis">ofis</option>
+                          <option value="qaraj">qaraj</option>
+                          <option value="torpaq">torpaq</option>
+                          <option value="obyekt">obyekt</option>
+                </select>
+                
+                
+                <select class="container_input_client">
+                    <option selected value="0"></option>
+                    <option value="satıram">satıram</option>
+                    <option value="kirayə verirəm">kirayə verirəm</option>
+                </select>
+               
+            </div>
+            <div class="city_div_select">
+              <div class="city_div">
+                <label for="city">Şəhər</label>
+                <select id="baku_selected" class="city_select" name="city" required>
+                    <option value="Ağcabədi">Ağcabədi</option>
+                    <option value="Ağdam">Ağdam</option>
+                    <option value="Ağdaş">Ağdaş</option>
+                    <option value="Ağdərə">Ağdərə</option>
+                    <option value="Ağstafa">Ağstafa</option>
+                    <option value="Ağsu">Ağsu</option>
+                    <option value="Astara">Astara</option>
+                    <option  selected value="1" name="Baki">Bakı</option>
+                    <option value="Balakən">Balakən</option>
+                    <option value="Beyləqan">Beyləqan</option>
+                    <option value="Bərdə">Bərdə</option>
+                    <option value="Biləsuvar">Biləsuvar</option>
+                    <option value="Cəbrayıl">Cəbrayıl</option>
+                    <option value="Cəlilabad">Cəlilabad</option>
+                    <option value="Daşkəsən">Daşkəsən</option>
+                    <option value="Füzuli">Füzuli</option>
+                    <option value="Gədəbəy">Gədəbəy</option>
+                    <option value="Gəncə">Gəncə</option>
+                    <option value="Goranboy">Goranboy</option>
+                    <option value="Göyçay">Göyçay</option>
+                    <option value="Göygöl">Göygöl</option>
+                    <option value="Göytəpə">Göytəpə</option>
+                    <option value="Hacıqabul">Hacıqabul</option>
+                    <option value="Xaçmaz">Xaçmaz</option>
+                    <option value="Ismayıllı">Ismayıllı</option>
+                    <option value="Xankəndi">Xankəndi</option>
+                    <option value="Xırdalan">Xırdalan</option>
+                    <option value="Xızı">Xızı</option>
+                    <option value="Xocalı">Xocalı</option>
+                    <option value="Xocalı">Xocalı</option>
+                    <option value="Xocavənd">Xocavənd</option>
+                    <option value="Xudat">Xudat</option>
+                    <option value="İmişli">İmişli</option>
+                    <option value="İsmayıllı">İsmayıllı</option>
+                    <option value="Kürdəmir">Kürdəmir</option>
+                    <option value="Qax">Qax</option>
+                    <option value="Qazax">Qazax</option>
+                    <option value="Qəbələ">Qəbələ</option>
+                    <option value="Qobustan">Qobustan</option>
+                    <option value="Quba">Quba</option>
+                    <option value="Qubadlı">Qubadlı</option>
+                    <option value="Qusar">Qusar</option>
+                    <option value="Laçın">Laçın</option>
+                    <option value="Lerik">Lerik</option>
+                    <option value="Lənkəran">Lənkəran</option>
+                    <option value="Masallı">Masallı</option>
+                    <option value="Mingəçevir">Mingəçevir</option>
+                    <option value=">Naftalan">Naftalan</option>
+                    <option value="Naxçıvan">Naxçıvan</option>
+                    <option value="Naxçıvan MR">Naxçıvan MR</option>
+                    <option value="Neftçala">Neftçala</option>
+                    <option value="Oğuz">Oğuz</option>
+                    <option value="Saatlı">Saatlı</option>
+                    <option value="Sabirabad">Sabirabad</option>
+                    <option value="Salyan">Salyan</option>
+                    <option value="Samux">Samux</option>
+                    <option value="Siyəzən">Siyəzən</option>
+                    <option value="Sumqayıt">Sumqayıt</option>
+                    <option value="Şabran">Şabran</option>
+                    <option value="Şamaxı">Şamaxı</option>
+                    <option value="Şəki">Şəki</option>
+                    <option value="Şəmkir">Şəmkir</option>
+                    <option value="Şirvan">Şirvan</option>
+                    <option value="Şuşa">Şuşa</option>
+                    <option value="Tərtər">Tərtər</option>
+                    <option value="Tovuz">Tovuz</option>
+                    <option value="Ucar">Ucar</option>
+                    <option value="Yardımlı">Yardımlı</option>
+                    <option value="Yevlax">Yevlax</option>
+                    <option value="Zaqatala">Zaqatala</option>
+                    <option value="Zəngilan">Zəngilan</option>
+                    <option value="Zərdab">Zərdab</option>
+                </select>
+                
+              </div>
+
+
+              
+                <div class="number_of_rooms"> 
+                  <label for="number_of_rooms ">Otaq sayı</label>
+                  <select class="number_of_rooms_select_1 " name="number_of_rooms" required>
+                      <option selected value="0"></option>
+                      <option value="Otaq sayı 1">1</option>
+                      <option value="Otaq sayı 2">2</option>
+                      <option value="Otaq sayı 3">3</option>
+                      <option value="Otaq sayı 4">4</option>
+                      <option value="Otaq sayı 5">5</option>
+                      <option value="Otaq sayı 6">6</option>
+                      
+                  </select>
+                  
+                </div>
+               
+                <div class="area_div">
+                  <label for="area">Sahə</label>
+                  <input class="area_input" type="number" name="area" required />
+            
+                </div>
+                <div class="number_of_rooms_2"> 
+                  <label for="number_of_rooms ">Mərtəbə</label>
+                  <select class="number_of_rooms_select_2 " name="number_of_rooms" required>
+                      <option selected value="0"></option>
+                      <option value="Mərtəbə Sayı1">1</option>
+                      <option value="Mərtəbə Sayı2">2</option>
+                      <option value="Mərtəbə Sayı3">3</option>
+                      <option value="Mərtəbə Sayı4">4</option>
+                      <option value="Mərtəbə Sayı5">5</option>
+                      <option value="Mərtəbə Sayı6">6</option>
+                      <option value="Mərtəbə Sayı7">7</option>
+                      <option value="Mərtəbə Sayı8">8</option>
+                      <option value="Mərtəbə Sayı9">9</option>
+                      <option value="Mərtəbə Sayı10">10</option>
+                      <option value="Mərtəbə Sayı11">11</option>
+                      <option value="Mərtəbə Sayı12">12</option>
+                      <option value="Mərtəbə Sayı13">13</option>
+                      <option value="Mərtəbə Sayı14">14</option>
+                      <option value="Mərtəbə Sayı15">15</option>
+                      <option value="Mərtəbə Sayı16">16</option>
+                      <option value="Mərtəbə Sayı17">17</option>
+                      <option value="Mərtəbə Sayı18">18</option>
+                      <option value="Mərtəbə Sayı19">19</option>
+                      <option value="Mərtəbə Sayı20">20</option>
+                      
+                      
+                  </select>
+               
+                </div>
+                <div class="number_of_rooms_3"> 
+                  <label for="number_of_rooms ">Mərtəbələrin sayı</label>
+                  <select class="number_of_rooms_select_2 " name="number_of_rooms" required>
+                      <option selected value="0"></option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      
+                  </select>
+                  
+                </div>
+                <div class="additional_info_div">
+                  <label for="additional_info">Əlavə məlumat</label>
+                  <div class="counter_div">
+                  <textarea class="additional_info_textarea" name="additional_info" id="additional_info" cols="30" rows="10" data-maxlength="3000" required></textarea>
+                  <div class="counter">3000 simvol qalıb</div>
+                </div>
+                
+                </div>
+
+                <div class="price_div">
+                  <label for="price">Qiymət</label>
+                  <input class="price_input" type="number" name="price" required /> AZN
+                  
+                </div>
+                <div class="checkbox_excerpt">
+                  <label for="excerpt">
+                  <input class="checkbox_input" type="checkbox" name="excerpt" value="true" />Çıxarış var</label>
+                  <label for="excerpt">
+                    <input class="checkbox_input" type="checkbox" name="ipoteka" value="true" />İpoteka var</label>
+                </div>
+                <div class="district_div" style="display: none;">
+                  <label for="district">Rayon</label>
+                  <select class="district_select struktur" name="district" required>
+                      <option selected value="0"></option>
+                      <option value="Abşeron">Abşeron</option>
+                      <option value="Binəqədi">Binəqədi</option>
+                      <option value="Xətai">Xətai</option>
+                      <option value="Xəzər">Xəzər</option>
+                      <option value="Qaradağ">Qaradağ</option>
+                      <option value="Nərimanov">Nərimanov</option>
+                      <option value="Nəsimi">Nəsimi</option>
+                      <option value="Nizami">Nizami</option>
+                      <option value="Pirallahı">Pirallahı</option>
+                      <option value="Sabunçu">Sabunçu</option>
+                      <option value="Səbail">Səbail</option>
+                      <option value="Suraxanı">Suraxanı</option>
+                      <option value="Yasamal">Yasamal</option>
+                  </select>
+                 
+                </div>
+
+                <div class="town_div">
+                  <label for="town">Qəsəbə</label>
+                  <select class="town_select struktur" name="town" required>
+                    <option selected value="0"></option>
+                    <option value="Xalxal k">Xalxal k</option>
+                  </select>
+                  
+                </div>
+                <div class="map_divider">
+                  <label for="map">Xəritə</label>
+                  
+                  <div class="map_div_input">
+                    <div style="position: relative;">
+                    
+                    <div style="position: relative; padding-bottom: 120px; height: 0; overflow: hidden;"><iframe style="position: absolute; top: 0; left: 0; width: 345px; height: 120px; border:0;" loading="lazy" allowfullscreen src="https://maps.google.com/maps?q=baku&layer=c&output=embed"></iframe></div><a href="https://www.ohiovalleyeats.com/" rel="noopener" target="_blank" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;">ohiovalleyeats.com</a>
+                  </div>
+                  <div class="map_div_bokemarker_text">Ünvana ən yaxın metro və nişangahlar</div>
+                  
+                </div>
+            
+                  </div>
+                  <div class="adress_bokemarker">
+                    <ul>
+                      <li>Koala parkı</li>
+                      <li>Dostluq kinoteatrı</li>
+                      <li>Nəsimi bazarı</li>
+                      <li>Zoopark</li>
+                    </ul>
+                  
+                  </div>
+
+                  <div class="addres_input">
+                    <label for="addres">Ünvan</label>
+                    <input class="struktur addres_input" type="text" name="addres" required />
+                    
+                  </div>
+                  
+                  <div class="image_div">
+                    <label for="file">Şəkillər</label>
+                    <input class="image_input" type="file" name="image" required/>
+                    <ul>
+                      <li>Şəkillərin minimal sayı — 4 ədəd</li>
+                      <li>Binanın birinci mərtəbədən başlamaqla tam şəklinin olması mütləqdir</li>
+                      <li>Şəkillərin optimal ölçüləri — 800 x 600 pikseldir</li>
+                    </ul>
+                  </div>
+
+                  <div class="name_input_div">
+                    <label for="name">Adınız</label>
+                    <input class="struktur name_input" type="text" name="name" required />
+                   
+                  </div>
+                 <div class="radio_input_div">
+                  <label  for="client"> <input type="radio" name="client" value="1" required /> Öz elanımı yerləşdirirəm</label>
+                  <label for="client"><input type="radio" name="client" value="2" required /> Mən vasitəçiyəm (agent)</label>
+               
+                 </div>
+
+                 <div class="email_div">
+                   <label for="email">Email</label>
+                   <input class="struktur email_input" type="email" name="email" required placeholder="saytda göstərilmir"/>
+                  
+                 </div>
+
+                 <div class="phone_div">
+                   <label for="phone">Telefon</label>
+                   <input  class="struktur phone_input" type="tel" name="phone " required placeholder="(___) ___-__-__" />
+                   
+                 </div>
+
+                 <div class="info_div_text">
+                  <div class="text_info_img"><img src="https://bina.azstatic.com/assets/shared/icon-info-blue-e9cf44b4c450b324ddf67ff339b5e32f28d3e07337b9c551c6e2a70319ea147c.svg" alt="info" /></div>
+                 <p>Nömrə SMS-kod ilə təsdiqləndikdən sonra bu elan yoxlamaya göndəriləcək və kabinetdə göstəriləcək.</p> 
+                 </div>
+
+                 <div class="submit_div">
+                  <p class="submit_div_text">Elan yerləşdirərək, Siz <a href="#">bina.az-ın İstifadəçi razılaşması</a> ilə razı olduğunuzu təsdiq edirsiniz.</p>
+                   <button class="submit_btn" type="submit" value="Təsdiqlə">Davam etmək</button>
+                 </div>
+            </div> 
+            
+        </form>
+            <div class="info_divider_2">
+              <h2>Qaydalar</h2>
+
+              <div class="info_divider_2_text">
+                <ul>
+                  <li>Bir ay ərzində eyni nömrədən 1 pulsuz (təkrar olmayan) elan yerləşdirmək olar. Elanı başqa bir elanla əvəz etmək qadağandır. Saytda artıq mövcud olan daşınmaz əmlakın təkrarən yerləşdirilməsi yalnız ödənişli əsaslarla mümkündür. Bununla belə, bir istifadəçi eyni daşınmaz əmlak obyektini yalnız bir dəfə yerləşdirə bilər.</li>
+                  <li>Əgər siz 1 ay ərzində 2 və daha artıq elan yerləşdirmək istəsəniz, hər növbəti elanın qiyməti - 6 AZN olacaq.</li>
+                  <li>Elanlar vaxtından əvvəl silinsə də, nömrə üçün nəzərdə tutulmuş ödənişsiz yer, elan dərc ediləndən 30 gün sonra bərpa edilir.</li>
+                  <li>bina.az saytında istifadə etdiyiniz ödənişli xidmətlər üçün nəzərdə tutulan məbləğ geri qaytarılmır.</li>
+                  <li>Zəhmət olmasa elanı yerləşdirən zaman əlaqə vasitələrini (telefon nömrəsi, e-mail ünvanını) düzgün qeyd edin. Telefon nömrəsi ilə bağlı heç bir dəyişiklik həyata keçirilmir.</li>
+                  <li>Elanınızla bağlı bütün məlumatlar sizin e-mail ünvanınıza göndərilir.</li>
+                  <li>Əmlakın təsvirində məlumatları böyük hərflərlə yazmaq, həmçinin telefon nömrəsi, e-mail ünvanı və şirkət haqqında xidmətləri yazmaq qadağandır.</li>
+                  <li>Əmlakın fasad (günorta vaxtı çəkilmiş) və otaq şəkilləri mütləq olmalıdır.</li>
+                  <li>Üzərində bina.az saytı da daxil olmaqla digər saytların loqotipləri olan şəkillər qəbul edilməyəcək.</li>
+                  <li>Qiymət tam qeyd edilməlidir. (Qiyməti ilkin ödəniş və ya 1 sot, 1 m² üçün yazmaq olmaz)</li>
+                  <li>Ünvanı xəritədə dəqiq göstərməyiniz vacibdir.</li>
+                  <li>Fərqli vasitəçi və şirkətlər eyni elanı ödənişli yerləşdirə bilərlər.</li>
+
+
+                </ul>
+              </div>
+            </div>
+    </main>
+
+    <section class="send_info">
+      <div class="submit_div">
+        <img class="submit_img" src="./public/24-approved-checked.gif" alt="submit">
+      </div>
+    </section>
+
+
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
