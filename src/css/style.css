@@ -441,3 +441,17 @@ li{
     transform: translate(-50%, -50%);
 
 }
+
+.submit_text{
+    font-size: 30px;
+    text-align: center;
+    display:none;
+    margin:80px  auto;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: green;
+    transform: scale(1.2);
+    z-index: 1;
+}

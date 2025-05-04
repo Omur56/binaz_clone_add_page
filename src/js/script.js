@@ -23,6 +23,7 @@ const district_div = document.querySelector('.district_div');
 const baku_selected = document.querySelector('#baku_selected');
 const checkbox_excerpt = document.querySelector('.checkbox_excerpt');
 const info_div_text = document.querySelector('.info_div_text');
+const submit_text = document.querySelector('.submit_text');
 
 
 
@@ -123,9 +124,11 @@ submit_btn.addEventListener('click', (e) => {
    
 if( submit_btn.value == 'Təsdiqlə'  ) {
     submit_img.style.display = 'block';
+    submit_text.style.display = 'block';
   
     
 }else {
+    submit_text.style.display = 'none';
     submit_img.style.display = 'block';
 }
 })
@@ -155,3 +158,14 @@ submit_btn.addEventListener('click', (e) => {
     e.preventDefault();
     
 });
+
+submit_btn.addEventListener('click', (e) => {
+  setTimeout(() => {
+    submit_img.style.display = 'none';
+    
+    submit_text.style.color = 'green';
+    submit_text.style.display = 'none';
+    
+    
+  }, 3000);
+})
